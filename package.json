@@ -1,4 +1,12 @@
 {
+  "name": "nanab-bot",
+  "version": "1.0.0",
+  "description": "nanab bot is a Pokemon GO Bot created to provide accurate information for Pokemon GO players. It also provides numerous fun functionalities for Discord users to replicate Pokemon GO experience, such as catching Pokemon, battling with other users, and raids. ",
+  "main": "index-js",
+  "type": "module",
+  "scripts": {
+    "start": "node index-js"
+  },
   "dependencies": {
     "discord.js": "^14.16.1",
     "dotenv": "^16.4.5",

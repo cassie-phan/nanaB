@@ -1,7 +1,7 @@
-require('dotenv').config();
-const {DiscordClient, Intents} = require("discord.js");
-const {MongoClient, MongoErrorLabel} = require('mongodb');
-const fetch = require('node-fetch');
+import {Client, Intents} from 'discord.js';
+import {MongoClient} from 'mongodb';
+import dotenv from 'dotenv';
+import fetch from 'node-fetch';
 
 // discord client and mongo client set up
 const client = new DiscordClient({intents:[Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES]});
