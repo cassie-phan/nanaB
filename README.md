@@ -1,2 +1,2 @@
 # nanaB
-nanaB bot: Discord bot for Pokemon Go users
+nanaB bot: Discord bot for Pokemon Go community
